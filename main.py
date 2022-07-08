@@ -6,7 +6,7 @@ digits = 3
 fps = 10000**digits * 2
 
 class Square( object ):
-	def __init__(self, screen, x , v , width, mass):
+	def __init__(self, screen: any, x: int, v: int, width: int, mass: int):
 		self.width = width
 		self.screen = screen
 		self.x = x
